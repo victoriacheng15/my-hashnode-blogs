@@ -32,10 +32,10 @@ addEventListener(type, listener, options);
 addEventListener(type, listener, useCapture);
 ```
 
-As you can see, the `addEventListener` takes 3 arguements
+As you can see, the `addEventListener` takes 3 arguments
 
-- **type**: this reprensts the event type, such as `click`, `keydown`, `mouseover` and so on.
-- **listener**: it is usually the function that you had declared. such as change background color, text color, and many options
+- **type**: this is the event type, such as `click`, `keydown`, `mouseover` and so on.
+- **listener**: it is usually the function that you had declared, such as change background colour, text colour, and many options
 
 ```js
 function makeChange() {
@@ -117,7 +117,7 @@ sources:
 
 # Recap
 
-Both onclick and addEventlistener are supported on almost all browsers beside `Internet Explorer version 6 - 8`. But, which one to use? It boils down on what what are you trying to achieve. Does it do one thing only, you may go with onclick for a short and simple way to write. However, addEventListener is recommended to use.
+Both onclick and addEventlistener are supported on almost all browsers beside `Internet Explorer version 6 - 8`. But, which one to use? It boils down to what are you trying to achieve. Does it do one thing only, you may go with onclick for a short and simple way to write. However, addEventListener is recommended to use.
 
 # Thank you!
 
